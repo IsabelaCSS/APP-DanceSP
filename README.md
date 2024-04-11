@@ -111,7 +111,8 @@
       const TextSpan(text: 'texto'),)
 
 # Tela do grupo de dança
-![alt text](image-4.png)
+![image](https://github.com/IsabelaCSS/APP-DanceSP/assets/128037357/c47b744e-b738-49e5-9ab1-972029f2b15b)
+
 ### Widgets - Telas do grupo.
 **1 - Container:** Ultilizado para pintar uma parte especifica na tela.
 
@@ -168,6 +169,35 @@
             image: const NetworkImage(
                 'https://picsum.photos/250?image=9'),
           ),
+          
+--------------------------------------------------------------------------------------------------
+
+**6 - FlutterMap:** Ultilizado como botão com imagem.
+
+**Parametro -** 
+
+        Widget build(BuildContext context) {
+          return FlutterMap(
+            options: MapOptions(
+              initialCenter: LatLng(51.509364, -0.128928),
+                 initialZoom: 9.2,
+        ),
+        children: [
+          TileLayer(
+            urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+            userAgentPackageName: 'com.example.app',
+          ),
+          RichAttributionWidget(
+            attributions: [
+              TextSourceAttribution(
+                'OpenStreetMap contributors',
+                onTap: () => launchUrl(Uri.parse('https://openstreetmap.org/copyright')),
+              ),
+            ],
+          ),
+        ],
+      );
+    }
 
 # Tela QuemSomos
 ![alt text](image-6.png)
