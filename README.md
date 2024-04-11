@@ -2,7 +2,7 @@
 ## descrição detalhada do APP e funções das telas e os recursos que serão aplicados 
 ## Quais são as telas estaticas e as dinamicas
 
-
+oi
 # Tela Inicial
 ![alt text](image-1.png)
 ### Widgets - Inicial
