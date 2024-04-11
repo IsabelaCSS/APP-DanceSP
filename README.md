@@ -171,7 +171,7 @@
           
 --------------------------------------------------------------------------------------------------
 
-**6 - FlutterMap:** Ultilizado como botão com imagem.
+**6 - FlutterMap:** Ultilizado para mapa do google.
 
 **Parametro -** 
 
@@ -197,7 +197,19 @@
         ],
       );
     }
+    
+--------------------------------------------------------------------------------------------------
 
+*7 - Scrollbar:** Ultilizado para rolagem de tela.
+**Parametro -** 
+
+        Scrollbar(
+         child: listView.builder(
+             itemCount: 20,
+             itemBuilder:(c, i) => MyItem(i).
+            ),
+        )
+        
 # Tela QuemSomos
 ![alt text](image-6.png)
 ### Widgets - Quem Somos
